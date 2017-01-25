@@ -1,0 +1,26 @@
+Insert into STUDENT (NAME_ST,SURNAME_ST,EMAIL_ST,PASS_ST) values ('Ann','Ann','ollo','934B535800B1CBA8F96A5D72F72F1611');
+Insert into STUDENT (NAME_ST,SURNAME_ST,EMAIL_ST,PASS_ST) values ('Ann','Ann','angu','4A7D1ED414474E4033AC29CCB8653D9B');
+Insert into STUDENT (NAME_ST,SURNAME_ST,EMAIL_ST,PASS_ST) values ('Ol','Ol','olla','4A7D1ED414474E4033AC29CCB8653D9B');
+Insert into STUDENT (NAME_ST,SURNAME_ST,EMAIL_ST,PASS_ST) values ('Ja','Ja','jaja','934B535800B1CBA8F96A5D72F72F1611');
+
+Insert into SUBJECTS (NAME_SUB) values ('Algebra');
+Insert into SUBJECTS (NAME_SUB) values ('Chemistry');
+Insert into SUBJECTS (NAME_SUB) values ('English');
+Insert into SUBJECTS (NAME_SUB) values ('Geometry');
+Insert into SUBJECTS (NAME_SUB) values ('Physics');
+
+Insert into SUBLIST (EMAIL_T,NAME_SUB) values ('Llll','English');
+Insert into SUBLIST (EMAIL_T,NAME_SUB) values ('paam','Algebra');
+Insert into SUBLIST (EMAIL_T,NAME_SUB) values ('irgr','Geometry');
+Insert into SUBLIST (EMAIL_T,NAME_SUB) values ('alla','Physics');
+
+Insert into TEACHERS (NAME_T,SURNAME_T,EMAIL_T,PASS_T) values ('Ll','Ll','Llll','4A7D1ED414474E4033AC29CCB8653D9B');
+Insert into TEACHERS (NAME_T,SURNAME_T,EMAIL_T,PASS_T) values ('Irina','Irina','irgr','B59C67BF196A4758191E42F76670CEBA');
+Insert into TEACHERS (NAME_T,SURNAME_T,EMAIL_T,PASS_T) values ('am','ppa','paam','934B535800B1CBA8F96A5D72F72F1611');
+Insert into TEACHERS (NAME_T,SURNAME_T,EMAIL_T,PASS_T) values ('Al','Al','alla','4A7D1ED414474E4033AC29CCB8653D9B');
+
+Insert into TESTS (NUMBER_TEST,NAME_SUB,EMAIL_T,TASK) values ('45','Algebra','paam',null);
+Insert into TESTS (NUMBER_TEST,NAME_SUB,EMAIL_T,TASK) values ('1','Algebra','paam','רגמןשרןמר');
+Insert into TESTS (NUMBER_TEST,NAME_SUB,EMAIL_T,TASK) values ('1','Geometry','irgr','app');
+Insert into TESTS (NUMBER_TEST,NAME_SUB,EMAIL_T,TASK) values ('5','Algebra','paam',null);
+Insert into TESTS (NUMBER_TEST,NAME_SUB,EMAIL_T,TASK) values ('34','Algebra','paam','ֻננדךנן');
